@@ -27,7 +27,7 @@ function Home() {
 
   return (
      
-       <Layout title="APPLE" >
+       <Layout title="TEMPLATE APP" >
            {data.getEvents.map(event => (
                 <Card
                   id={event._id}
