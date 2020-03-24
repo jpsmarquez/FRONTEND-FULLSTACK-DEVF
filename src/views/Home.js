@@ -27,7 +27,7 @@ function Home() {
 
   return (
      
-       <Layout title="flow" >
+       <Layout title="template" background-color="red">
            {data.getEvents.map(event => (
                 <Card
                   id={event._id}
