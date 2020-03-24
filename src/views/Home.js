@@ -27,7 +27,7 @@ function Home() {
 
   return (
      
-       <Layout title="WEB APP" >
+       <Layout title="flow" >
            {data.getEvents.map(event => (
                 <Card
                   id={event._id}
