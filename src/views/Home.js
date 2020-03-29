@@ -27,7 +27,7 @@ function Home() {
 
   return (
      
-       <Layout title="circles" >
+       <Layout title="CIRCLES" >
            {data.getEvents.map(event => (
                 <Card
                   id={event._id}
@@ -40,5 +40,5 @@ function Home() {
             
   );
 }
-23
+
 export default Home;
