@@ -27,7 +27,7 @@ function Home() {
 
   return (
      
-       <Layout title="CIRQLOS" >
+       <Layout title="TEMPLATE" >
            {data.getEvents.map(event => (
                 <Card
                   id={event._id}
